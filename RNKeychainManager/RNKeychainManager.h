@@ -11,6 +11,6 @@
 
 @interface RNKeychainManager : NSObject <RCTBridgeModule>
 
-- (OSStatus)deleteCredentialsForServer:(NSString *)server
+- (OSStatus)deleteCredentialsForServer:(NSString *)server;
 
 @end
